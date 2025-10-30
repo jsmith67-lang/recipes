@@ -1,2 +1,10 @@
-*.png
-pictures/
+*.png #ignore all png files 
+!final.png #except final.png #except do not ignore this 
+pictures/cake/ #ignore everything in this directory 
+pictures/*              # ignore everything in pictures folder
+!pictures/pie/          # do not ignore pictures/pie folder allow tracking contents
+pictures/data/location/gps/*.dat #ignore .dat files in this subdirectory 
+**/*.csv #ignore .csv
+!*.csv #unignore again 
+log* #ignore files or directories starting with log 
+
