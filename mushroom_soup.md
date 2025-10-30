@@ -1,5 +1,5 @@
 #ingrediens
--mushrooms
+-button mushrooms
 -butter
 -garlic
 -onions
